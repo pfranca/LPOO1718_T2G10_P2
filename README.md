@@ -14,7 +14,7 @@ The player is suposed to guide a ball through a maze of walls and obstacles usin
 ### Architecture Design
 #### First approach (scratch) of the package and class diagrams (UML)
 
-![package diagrem](images/Diagram2.png)
+![package diagrem](images/Diagram2.png) <br />
 package diagram <br />
 
 
@@ -44,7 +44,7 @@ Paper sketch level choosing  <br />
 ![paper_options](images/papel3.jpg)
 Paper sketch gameplay  <br />
 
-![mockups](images/mockups.png)
+![mockups](images/mockups.png) <br />
 Digital Mockups  <br />
 
 ### Test Design
