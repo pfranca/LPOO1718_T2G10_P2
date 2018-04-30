@@ -11,19 +11,19 @@ ei12056@fe.up.pt <br />
 
 The player is suposed to guide a ball through a maze of walls and obstacles using the accelerometer of a mobile device (tilting said device), the final objective is for the ball to enter a specific hole.
 
-### Architecture Design
-#### First approach (scratch) of the package and class diagrams (UML)
+## Architecture Design
+### First approach (scratch) of the package and class diagrams (UML)
 
 ![package diagrem](images/Diagram2.png) <br />
 package diagram <br />
 
 
-#### behavioural aspects
+### behavioural aspects
 
 ![state diagram](images/state_dia.png) <br />
 state machine diagram <br />
 
-#### Expected Design Patterns to use on our application (the ones we are considering)
+### Expected Design Patterns to use on our application (the ones we are considering)
 **State** - To change the levels and maybe updating the sprites.  <br />
 **Observer** - To allow the user to control and move the ball (we will probably use box2d library from libGDX).  <br />
 **strategy** - So that we can have "different" ball animations and simulate "zones" with diferent speeds. <br />
@@ -31,11 +31,11 @@ state machine diagram <br />
 **Flyweight** - To use in the user interface.  <br />
 
 
-### GUI Design
-#### Identification/Listing of the main functionalities
+## GUI Design
+### Identification/Listing of the main functionalities
 The Graphic User Interface should allow the user to naviagte between the main menu, level selction menu, options, the game itself as well leave the game/close the app.
 
-#### GUI mock-ups
+### GUI mock-ups
 ![paper_menu](images/papel1.jpg)  <br />
 Paper sketch menu  <br />
 
@@ -51,8 +51,8 @@ Paper sketch gameplay  <br />
 ![mockups](images/mockups.png) <br />
 Digital Mockups  <br />
 
-### Test Design
-#### Listing of the expected final test cases
+## Test Design
+### Listing of the expected final test cases
 -Test if the ball collides with the walls. <br />
 -Test if the player loses if the ball enters a hole other than the objective(final) hole <br />
 -Teste if the player wins if the ball enters the objective hole. <br />
