@@ -25,4 +25,8 @@ O jogo tem como objetivo que o jogador utilizando as funcionalidades do aceleró
 #### GUI mock-ups
 
 ### Test Design
-#### Listing of the expected final test cases,
+#### Listing of the expected final test cases
+-Test if the ball collides with the walls.
+-Test if the player loses if the ball enters a hole other than the objective(final) hole.
+-Teste if the player wins if the ball enters the objective hole.
+(We're not yet sure how to go about implementing the tests given that the movement of the ball if controlled by the device accelerometer)
