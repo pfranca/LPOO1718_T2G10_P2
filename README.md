@@ -20,6 +20,9 @@ package diagram (scratch) <br />
 ![class diagram](images/class_dia.png) <br />
 class diagram (scratch) <br />
 
+<br />
+Disclaimer: These diagrams are just a first aproach we though of after some research, these may be altered for the final implementation.
+<br />
 
 ### behavioural aspects
 
