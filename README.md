@@ -12,7 +12,7 @@ ei12056@fe.up.pt <br />
 The player is suposed to guide a ball through a maze of walls and obstacles using the accelerometer of a mobile device (tilting said device), the final objective is for the ball to enter a specific hole.
 
 ### Architecture Design
-#### Package and class diagram (UML)
+#### First approach (scratch) of the package and class diagrams (UML)
 
 #### behavioural aspects
 
