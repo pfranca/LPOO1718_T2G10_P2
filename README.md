@@ -14,6 +14,9 @@ The player is suposed to guide a ball through a maze of walls and obstacles usin
 ### Architecture Design
 #### First approach (scratch) of the package and class diagrams (UML)
 
+![package diagrem](images/Diagram2.png)
+
+
 #### behavioural aspects
 
 #### Expected Design Patterns to use on our application (the ones we are considering)
