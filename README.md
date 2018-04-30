@@ -20,6 +20,9 @@ package diagram <br />
 
 #### behavioural aspects
 
+![state diagram](images/state_dia.png) <br />
+state machine diagram <br />
+
 #### Expected Design Patterns to use on our application (the ones we are considering)
 **State** - To change the levels and maybe updating the sprites.  <br />
 **Observer** - To allow the user to control and move the ball (we will probably use box2d library from libGDX).  <br />
@@ -30,18 +33,19 @@ package diagram <br />
 
 ### GUI Design
 #### Identification/Listing of the main functionalities
+The Graphic User Interface should allow the user to naviagte between the main menu, level selction menu, options, the game itself as well leave the game/close the app.
 
 #### GUI mock-ups
-![paper_menu](images/papel1.jpg)
+![paper_menu](images/papel1.jpg)  <br />
 Paper sketch menu  <br />
 
-![paper_options](images/papel4.jpg)
+![paper_options](images/papel4.jpg)  <br />
 Paper sketch options  <br />
 
-![paper_levels](images/papel2.jpg)
+![paper_levels](images/papel2.jpg)  <br />
 Paper sketch level choosing  <br />
 
-![paper_options](images/papel3.jpg)
+![paper_options](images/papel3.jpg)  <br />
 Paper sketch gameplay  <br />
 
 ![mockups](images/mockups.png) <br />
