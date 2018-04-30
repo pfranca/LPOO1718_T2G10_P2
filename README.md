@@ -15,6 +15,7 @@ The player is suposed to guide a ball through a maze of walls and obstacles usin
 #### First approach (scratch) of the package and class diagrams (UML)
 
 ![package diagrem](images/Diagram2.png)
+package diagram <br />
 
 
 #### behavioural aspects
@@ -31,6 +32,20 @@ The player is suposed to guide a ball through a maze of walls and obstacles usin
 #### Identification/Listing of the main functionalities
 
 #### GUI mock-ups
+![paper_menu](images/papel1.jpg)
+Paper sketch menu  <br />
+
+![paper_options](images/papel4.jpg)
+Paper sketch options  <br />
+
+![paper_levels](images/papel2.jpg)
+Paper sketch level choosing  <br />
+
+![paper_options](images/papel3.jpg)
+Paper sketch gameplay  <br />
+
+![mockups](images/mockups.png)
+Digital Mockups  <br />
 
 ### Test Design
 #### Listing of the expected final test cases
