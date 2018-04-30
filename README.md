@@ -1,1 +1,4 @@
-# LPOO1718_T2G10_P2
+# LPOO1718 2nd PROJECT CHECKPOINT (T2G10)
+## Maze Tilt Android Game Using libGDX
+
+O jogo tem como objetivo que o jogador utilizando as funcionalidades do acelerómetro do seu dispositivo conduza uma bola através de um percurso de obstáculos com o objectivo de chegar ao buraco final através da inclinacão do seu dispositivo.
