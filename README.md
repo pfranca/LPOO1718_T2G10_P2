@@ -1,5 +1,5 @@
-# LPOO1718 2nd PROJECT CHECKPOINT (T2G10)
-### Team Members <br />
+# LPOO1718 2nd PROJECT CHECKPOINT 
+### Team Members (T2G10) <br />
 **Patrícia Janeiro Leite da Fonseca** <br />
 201605946 <br />
 up201605946@fe.up.pt <br />
@@ -9,15 +9,20 @@ ei12056@fe.up.pt <br />
 
 ## Maze Tilt Android Game Using libGDX
 
-O jogo tem como objetivo que o jogador utilizando as funcionalidades do acelerómetro do seu dispositivo conduza uma bola através de um percurso de obstáculos com o objectivo de chegar ao buraco final através da inclinacão do seu dispositivo.
-
+The player is suposed to guide a ball through a maze of walls and obstacles using the accelerometer of a mobile device (tilting said device), the final objective is for the ball to enter a specific hole.
 
 ### Architecture Design
 #### Package and class diagram (UML)
 
 #### behavioural aspects
 
-#### Expected Design Patterns to use on our application
+#### Expected Design Patterns to use on our application (the ones we are considering)
+**State** - To change the levels and maybe updating the sprites.  <br />
+**Observer** - To allow the user to control and move the ball (we will probably use box2d library from libGDX).  <br />
+**strategy** - So that we can have "different" ball animations and simulate "zones" with diferent speeds. <br />
+**Visitor** - This one is very important because we need to test if the ball collides with the walls so that it's not able to room around zones where its not supposed to, and also to test "collisions" with the holes(objective) and obstacles. <br />
+**Flyweight** - To use in the user interface.  <br />
+
 
 ### GUI Design
 #### Identification/Listing of the main functionalities
