@@ -1,7 +1,0 @@
-#Wed May 16 10:11:01 WEST 2018
-base.0=/home/franza/Desktop/TiltMaze/android/build/intermediates/transforms/dexMerger/debug/12
-path.1=classes.dex
-renamed.1=classes2.dex
-path.0=classes.dex
-renamed.0=classes.dex
-base.1=/home/franza/Desktop/TiltMaze/android/build/intermediates/transforms/dexMerger/debug/13
