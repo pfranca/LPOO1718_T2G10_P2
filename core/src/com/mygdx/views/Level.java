@@ -200,7 +200,7 @@ public class Level extends AbstractScreen  {
     }
 
     /**
-     * @see com.badlogic.gdx.Screen#dipose()
+     * @see com.badlogic.gdx.Screen#dispose()
      */
     @Override
     public void dispose() {

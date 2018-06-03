@@ -21,7 +21,7 @@ public class IntroMenu extends AbstractScreen{
     /**
      * Instantiates a new Screen
      *
-     * @param game
+     * @param game the game
      *
      */
     public IntroMenu(TiltMazeGame game)
