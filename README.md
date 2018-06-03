@@ -1,5 +1,5 @@
 # Final Project for OOP Lab class @FEUP 
-## LPOO1718_T2G10
+## LPOO1718_T2G10_P2
 
 ### Team Members <br />
 **Patrícia Janeiro Leite da Fonseca** <br />
