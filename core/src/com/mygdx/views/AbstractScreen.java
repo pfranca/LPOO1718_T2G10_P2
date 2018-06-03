@@ -4,7 +4,6 @@ import com.mygdx.game.TiltMazeGame;
 
 import com.badlogic.gdx.Screen;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class Abstract.
  */
@@ -17,8 +16,7 @@ public abstract class AbstractScreen implements Screen {
     /**
      * Instantiates a new abstract.
      *
-     * @param game
-     *            the game
+     * @param game the game
      */
     public AbstractScreen(TiltMazeGame game)
     {

@@ -18,14 +18,10 @@ public class Element {
     /**
      * Instantiates a new element.
      *
-     * @param x
-     *            the x coordinate
-     * @param y
-     *            the y coordinate
-     * @param width
-     *            the width
-     * @param height
-     *            the height
+     * @param x the x coordinate
+     * @param y the y coordinate
+     * @param width the width
+     * @param height the height
      */
     public Element(float x, float y, float width, float height)
     {

@@ -1,14 +1,9 @@
 package com.mygdx.game;
 
-import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Game;
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.assets.AssetManager;
-import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.mygdx.views.IntroMenu;
 
 public class TiltMazeGame extends Game {
@@ -21,15 +16,20 @@ public class TiltMazeGame extends Game {
 	private boolean vibrate = true;
 
 	/** If the game should play sound or not. */
-	private boolean sound = false;
+	private boolean sound = true;
 
-	
+	/**
+	 * @see com.badlogic.gdx.Game#create()
+	 */
 	@Override
 	public void create () {
 
 		setScreen(new IntroMenu(this));
 	}
 
+	/**
+	 * @see com.badlogic.gdx.Game#render()
+	 */
 	@Override
 	public void render () {
 
@@ -39,6 +39,9 @@ public class TiltMazeGame extends Game {
 
 	}
 
+	/**
+	 * @see com.badlogic.gdx.Game#dispose()
+	 */
 	@Override
 	public void dispose () {
 
@@ -77,14 +80,19 @@ public class TiltMazeGame extends Game {
 		return super.getScreen();
 	}
 
+	/**
+	 * Checks if vibration is on.
+	 *
+	 * @return true if vibration is on false otherwise
+	 */
 	public boolean getVibrate() {
 		return vibrate;
 	}
 
 	/**
-	 * Checks if is sound.
+	 * Checks if sound is on.
 	 *
-	 * @return true, if is sound
+	 * @return true if sound is on false otherwise
 	 */
 	public boolean getSound()
 	{
@@ -94,8 +102,7 @@ public class TiltMazeGame extends Game {
 	/**
 	 * Sets the vibrate.
 	 *
-	 * @param vibrate
-	 *            the new vibrate
+	 * @param vibrate the new vibrate
 	 */
 	public void setVibrate(boolean vibrate) {
 		this.vibrate = vibrate;
@@ -104,8 +111,7 @@ public class TiltMazeGame extends Game {
 	/**
 	 * Sets the sound.
 	 *
-	 * @param sound
-	 *            the new sound
+	 * @param sound the new sound
 	 */
 	public void setSound(boolean sound)
 	{

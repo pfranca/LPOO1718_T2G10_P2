@@ -7,7 +7,7 @@ import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.Json;
 import com.badlogic.gdx.utils.JsonValue;
 
-// TODO: Auto-generated Javadoc
+
 /**
  * The Class Player.
  */
@@ -34,8 +34,7 @@ public class Player implements Json.Serializable{
     /**
      * Gets the star level.
      *
-     * @param i
-     *            the i
+     * @param i the i
      * @return the star at level i
      */
     public int getStarLevel(int i)
@@ -46,10 +45,8 @@ public class Player implements Json.Serializable{
     /**
      * Sets the star level.
      *
-     * @param i
-     *            the level
-     * @param s
-     *            the number of stars
+     * @param i the level
+     * @param s the number of stars
      */
     public void setStarLevel(int i, int s)
     {
@@ -60,8 +57,7 @@ public class Player implements Json.Serializable{
     /**
      * Sets the stars.
      *
-     * @param array
-     *            sets all the stars of all levels, used when loading data
+     * @param array sets all the stars of all levels, used when loading data
      */
     public void setStars(@SuppressWarnings("rawtypes") Array array)
     {
@@ -85,8 +81,7 @@ public class Player implements Json.Serializable{
     /**
      * Sets the level.
      *
-     * @param level
-     *           sets the last level the player completed
+     * @param level sets the last level the player completed
      */
     public void setLevel(int level)
     {
@@ -96,10 +91,8 @@ public class Player implements Json.Serializable{
     /**
      * Level passed.
      *
-     * @param level2
-     *            the level completed
-     * @param timepassed
-     *            how long it took to complete
+     * @param level2 the level completed
+     * @param timepassed how long it took to complete
      */
     public void levelPassed(int level2, long timepassed)
     {
@@ -118,8 +111,7 @@ public class Player implements Json.Serializable{
     /**
      * Loads the player data.
      *
-     * @param string
-     *            the data from the player
+     * @param string the data from the player
      */
     public void setPlayerFromString(String string)
     {
@@ -152,7 +144,6 @@ public class Player implements Json.Serializable{
      */
     @Override
     public void read(Json json, JsonValue jsonData) {
-        // TODO Auto-generated method stub
 
     }
 

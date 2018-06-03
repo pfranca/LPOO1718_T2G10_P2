@@ -22,7 +22,7 @@ import com.mygdx.game.TiltMazeGame;
 import com.mygdx.levels.LevelMaze;
 import com.badlogic.gdx.utils.TimeUtils;
 
-// TODO: Auto-generated Javadoc
+
 /**
  * The Class Play.
  */
@@ -94,10 +94,8 @@ public class Play extends AbstractScreen{
     /**
      * Instantiates a new play.
      *
-     * @param level
-     *            the level
-     * @param game
-     *            the game
+     * @param level the level
+     * @param game the game
      */
     public Play(int level, TiltMazeGame game) {
         super(game);
@@ -318,20 +316,24 @@ public class Play extends AbstractScreen{
      */
     @Override
     public void resize(int width, int height) {
-        // TODO Auto-generated method stub
+
 
     }
 
-
+    /**
+     * @see com.badlogic.gdx.Screen#pause()
+     */
     @Override
     public void pause() {
-        // TODO Auto-generated method stub
+
 
     }
 
+    /**
+     * @see com.badlogic.gdx.Screen#resume()
+     */
     @Override
     public void resume() {
-        // TODO Auto-generated method stub
 
     }
 

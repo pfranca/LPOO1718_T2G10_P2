@@ -31,16 +31,11 @@ public class Hole extends Element
     /**
      * Instantiates a new hole.
      *
-     * @param x
-     *            the x coordinate
-     * @param y
-     *            the y coordinate
-     * @param r
-     *            the r coordinate
-     * @param world
-     *            the world
-     * @param holeType
-     *            the hole type
+     * @param x the x coordinate
+     * @param y the y coordinate
+     * @param r the r coordinate
+     * @param world the world
+     * @param holeType the hole type
      */
     public Hole(float x, float y, float r, World world, int holeType)
     {

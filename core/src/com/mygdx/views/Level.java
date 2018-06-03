@@ -17,7 +17,6 @@ import com.badlogic.gdx.utils.Json;
 import com.mygdx.game.Player;
 import com.mygdx.game.TiltMazeGame;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class Level.
  */
@@ -51,8 +50,7 @@ public class Level extends AbstractScreen  {
     /**
      * Instantiates a new level.
      *
-     * @param game
-     *            the game
+     * @param game the game
      */
     public Level(TiltMazeGame game) {
         super(game);
@@ -174,14 +172,18 @@ public class Level extends AbstractScreen  {
         table.invalidateHierarchy();
     }
 
-
+    /**
+     * @see com.badlogic.gdx.Screen#pause()
+     */
     @Override
     public void pause() {
 
 
     }
 
-
+    /**
+     * @see com.badlogic.gdx.Screen#pause()
+     */
     @Override
     public void resume() {
 
@@ -197,6 +199,9 @@ public class Level extends AbstractScreen  {
 
     }
 
+    /**
+     * @see com.badlogic.gdx.Screen#dipose()
+     */
     @Override
     public void dispose() {
         stage.dispose();

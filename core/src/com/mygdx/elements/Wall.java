@@ -25,16 +25,11 @@ public class Wall extends Element
     /**
      * Instantiates a new wall.
      *
-     * @param x
-     *            the x coordinate
-     * @param y
-     *            the y coordinate
-     * @param width
-     *            the width
-     * @param height
-     *            the height
-     * @param world
-     *            the world
+     * @param x the x coordinate
+     * @param y the y coordinate
+     * @param width the width
+     * @param height the height
+     * @param world the world
      */
     public Wall(float x, float y, float width, float height, World world)
     {

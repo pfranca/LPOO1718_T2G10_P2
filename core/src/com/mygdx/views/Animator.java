@@ -3,13 +3,11 @@ package com.mygdx.views;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.mygdx.game.TiltMazeGame;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class Animator.
  */
@@ -49,12 +47,9 @@ public class Animator extends AbstractScreen{
     /**
      * Instantiates a new animator.
      *
-     * @param game
-     *            the game
-     * @param stars
-     *            the stars received
-     * @param level
-     *            the level was in
+     * @param game the game
+     * @param stars the stars received
+     * @param level the level was in
      */
     public Animator(TiltMazeGame game, int stars,int level) {
         super(game);
@@ -62,7 +57,7 @@ public class Animator extends AbstractScreen{
         this.level = level;
     }
 
-    /** (non-Javadoc)
+    /**
      * @see com.badlogic.gdx.Screen#show()
      */
     @Override
@@ -90,8 +85,6 @@ public class Animator extends AbstractScreen{
 
             starFrames = new TextureRegion[1];
             starSheet = new Texture (Gdx.files.internal("img/loss.png"));
-
-
             starAnimation = new Animation(0.3f,starFrames);
             starAnimation.setPlayMode(Animation.PlayMode.LOOP);
             spriteBac = new SpriteBatch();
@@ -171,7 +164,9 @@ public class Animator extends AbstractScreen{
 
     }
 
-
+    /**
+     * @see com.badlogic.gdx.Screen#dispose()
+     */
     @Override
     public void dispose() {
         spriteBac.dispose();

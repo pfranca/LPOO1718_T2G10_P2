@@ -1,7 +1,6 @@
 package com.mygdx.views;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
@@ -16,7 +15,6 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.mygdx.game.TiltMazeGame;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class OptionsMenu.
  */
@@ -55,8 +53,7 @@ public class OptionsMenu extends AbstractScreen {
     /**
      * Instantiates a new options menu.
      *
-     * @param game
-     *            the game
+     * @param game the game
      */
     public OptionsMenu(TiltMazeGame game) {
         super(game);
@@ -188,11 +185,12 @@ public class OptionsMenu extends AbstractScreen {
     }
 
 
+    /**
+     * @see com.badlogic.gdx.Screen#dispose()
+     */
     @Override
     public void dispose() {
         stage.dispose();
     }
-
-
 
 }

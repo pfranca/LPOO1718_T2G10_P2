@@ -59,12 +59,16 @@ public class MainMenu extends AbstractScreen{
 
     }
 
+    /**
+     * @see com.badlogic.gdx.Screen#hide()
+     */
+    @Override
     public void hide (){
         dispose();
     }
 
     /**
-     * @see com.badlogic.gdx.Screen
+     * @see com.badlogic.gdx.Screen#render(float delta)
      */
     @Override
     public void render (float delta){
@@ -157,17 +161,6 @@ public class MainMenu extends AbstractScreen{
         Texture stxt = new Texture("img/mainMenu.png");
         splash = new Sprite(stxt);
         splash.setSize(Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
-
-
-        /*spriteBac = new SpriteBatch();
-        Texture stxt = new Texture("mainMenu.png");
-        splash = new Sprite(stxt);
-        splash.setSize(Gdx.graphics.getWidth(), Gdx.graphics.getHeight() );
-        game.manager.load("ui/uiskin.json", Skin.class);
-        game.manager.load("sound/Dartudo.mp3", Music.class);
-        game.manager.load("sound/letsgo.mp3", Music.class);
-        */
-
 
     }
 

@@ -6,7 +6,6 @@ import com.mygdx.elements.Ball;
 import com.mygdx.elements.Hole;
 import com.mygdx.elements.Wall;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class WorldTeeter.
  */
@@ -29,8 +28,7 @@ public class LevelMaze
     /**
      * Instantiates a new world teeter.
      *
-     * @param world
-     *            the world
+     * @param world the world
      */
     public LevelMaze(World world)
     {

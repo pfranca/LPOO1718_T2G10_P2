@@ -15,7 +15,7 @@ import com.badlogic.gdx.physics.box2d.FixtureDef;
 import com.badlogic.gdx.physics.box2d.Manifold;
 import com.badlogic.gdx.physics.box2d.World;
 
-// TODO: Auto-generated Javadoc
+
 /**
  * The Class Ball.
  */
@@ -40,16 +40,11 @@ public class Ball extends DynamicObject implements ContactListener {
     /**
      * Instantiates a new ball.
      *
-     * @param game
-     *            the game
-     * @param x
-     *            the x coordinate
-     * @param y
-     *            the y coordinate
-     * @param r
-     *            the radius
-     * @param world
-     *            the world
+     * @param game the game
+     * @param x the x coordinate
+     * @param y the y coordinate
+     * @param r the radius
+     * @param world the world
      */
     public Ball(TiltMazeGame game, float x, float y, float r, World world)
     {
@@ -98,8 +93,7 @@ public class Ball extends DynamicObject implements ContactListener {
     /**
      * Update.
      *
-     * @param deltaTime
-     *            the time that passed
+     * @param deltaTime the time that passed
      */
     public void update(float deltaTime)
     {
@@ -185,8 +179,7 @@ public class Ball extends DynamicObject implements ContactListener {
     /**
      * Sets the contact hole.
      *
-     * @param i
-     *            the new contact hole
+     * @param i the new contact hole
      */
     public void setContHole(int i) {
         this.contHole = i;

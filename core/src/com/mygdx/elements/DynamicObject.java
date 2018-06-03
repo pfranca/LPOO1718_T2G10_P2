@@ -2,7 +2,7 @@ package com.mygdx.elements;
 
 import com.badlogic.gdx.math.Vector2;
 
-// TODO: Auto-generated Javadoc
+
 /**
  * The Class DynamicObject.
  */
@@ -18,14 +18,10 @@ public class DynamicObject extends Element
     /**
      * Instantiates a new dynamic object.
      *
-     * @param x
-     *            the x coordinate
-     * @param y
-     *            the y coordinate
-     * @param width
-     *            the width
-     * @param height
-     *            the height
+     * @param x the x coordinate
+     * @param y the y coordinate
+     * @param width the width
+     * @param height the height
      */
     public DynamicObject(float x, float y, float width, float height)
     {
