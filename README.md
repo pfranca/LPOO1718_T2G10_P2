@@ -29,16 +29,33 @@ You can copy the single file /APK/TiltMe.apk to a folder in your android device 
 
 ### d2. - Development documentation
 
-package diagram 
+#### package diagram 
 ![package diagram](usermanual/Diagram2.png) <br />
-
-class diagram 
+<br />
+#### class diagram 
 ![class diagram](usermanual/class_dia.png) <br />
-
-state machine diagram 
+<br />
+#### state machine diagram 
 ![state diagram](usermanual/state_dia.png) <br />
 
+#### Expected Design Patterns to use on our application (the ones we are considering)
+**State** - To change the levels and updating the sprites in the aniamtion to give it more realism.  <br />
+**Observer** - To allow the user to control and move the ball <br />
+**Visitor** - To test if the ball collides with the walls so that it's not able to room around zones where its not supposed to, and also to test "collisions" with the holes and obstacles. <br />
+**Flyweight** - To change between views in the user interface.  <br />
 
+#### Major difficulties along the way
+We had difficluties all along the way, from problems with the repository (because of libGDX config files), to learning how to use android sensors and also time management, but through a LOT of googling, other students help and coffee we were able to get what we believe it's a pretty decent outcome.
+
+#### Lessons learned
+**Ninety-ninety rule** </br>
+"The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time." — Tom Cargill, Bell Labs
+
+#### Overall time spent developing
+ Although we did not keep close track of the time spent developing, we would say >100 hours
+
+#### Work distribution amongst team members
+Both team member worked the same amount.
 
 ### d3.  - User manual (with screenshots explaining how to play/use the game/app).
 The main objective of the game is to guide a ball through a maze of obstacle (wrong holes and walls) using the phone accelerometer (tilting the device) to reach the final/winning hole!
