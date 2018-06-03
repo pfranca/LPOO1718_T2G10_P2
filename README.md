@@ -34,3 +34,11 @@ The main objective of the game is to guide a ball through a maze of obstacle (wr
 
 Intro image:
 ![intro iamge](usermanual/intro.png)
+
+Main menu:
+In the main menu the user can either chose to play the game, go to the options menu or exit the app.
+![main menu](usermanual/main.png)
+
+Options menu:
+In the options menu the user can enable/disable the app music and/or vibration (all menus and gameplay have music, and the device vibrates when the ball hits a wall) both are active by default. The user can also 'reset'/delete is progress (unlocked levels and score). 'back' will take you the user back to the main menu.
+![Options menu](usermanual/options.png)
