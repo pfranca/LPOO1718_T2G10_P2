@@ -48,19 +48,22 @@ public class LevelMaze
         float ratio = w /  h;
         float ballSize = (float) (ratio/6);
 
-        // creating the walls
+        // creating the frame
 
-
-        wall = new Wall(0, -ballSize + (h / 2) * 0.0092f, w * 0.01f, ballSize*3 , world);
+        //upper
+        wall = new Wall(0, -ballSize + (h / 2) * 0.0094f, w * 0.01f, ballSize*2 , world);
         wall.makeBody();
 
-        wall = new Wall(0, ballSize + (-h / 2) * 0.0092f, w * 0.01f, ballSize*3, world);
+        //lower
+        wall = new Wall(0, ballSize + (-h / 2) * 0.0094f, w * 0.01f, ballSize*2, world);
         wall.makeBody();
 
-        wall = new Wall(ballSize + (-w/2)*0.0098f,0,ballSize*3,h*0.01f,world);
+        //left
+        wall = new Wall(ballSize + (-w/2)*0.0099f,0,ballSize*2,h*0.01f,world);
         wall.makeBody();
 
-        wall = new Wall(-ballSize + (+w/2)*0.0098f,0,ballSize*3,h*0.01f,world);
+        //right
+        wall = new Wall(-ballSize + (+w/2)*0.0099f,0,ballSize*2,h*0.01f,world);
         wall.makeBody();
 
     }
@@ -406,7 +409,7 @@ public class LevelMaze
 
         ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-        hole = new Hole( (w/2 * 0.8f * 0.01f),  -(h/2 * 0.8f * 0.01f), ballSize / 4, world, 1);
+        hole = new Hole( (w/2 * 0.8f * 0.01f),  -(h/2 * 0.8f * 0.009f), ballSize / 4, world, 1);
         hole.makeBody();
 
     }

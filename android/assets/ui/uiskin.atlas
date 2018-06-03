@@ -197,65 +197,65 @@ white
   index: -1
 n0star-default
   rotate: false
-  xy: 16, 152
-  size: 92, 92
+  xy: 24, 160
+  size: 76, 76
   split: 5, 5, 5, 4
-  orig: 92, 92
+  orig: 76, 76
   offset: 0, 0
   index: -1
 n1star-default
   rotate: false
-  xy: 111, 152
-  size: 92, 92
+  xy: 119, 160
+  size: 76, 76
   split: 5, 5, 5, 4
-  orig: 92, 92
+  orig: 76, 76
   offset: 0, 0
   index: -1
 n2star-default
   rotate: false
-  xy: 207, 152
-  size: 92, 92
+  xy: 215, 160
+  size: 76, 76
   split: 5, 5, 5, 4
-  orig: 92, 92
+  orig: 76, 76
   offset: 0, 0
   index: -1
 n3star-default
   rotate: false
-  xy: 302, 152
-  size: 92, 92
+  xy: 310, 160
+  size: 76, 76
   split: 5, 5, 5, 4
-  orig: 92, 92
+  orig: 76, 76
   offset: 0, 0
   index: -1
 n0star-down
   rotate: false
-  xy: 16, 248
-  size: 92, 92
+  xy: 24, 256
+  size: 76, 76
   split: 5, 5, 5, 4
-  orig: 92, 92
+  orig: 76, 76
   offset: 0, 0
   index: -1
 n1star-down
   rotate: false
-  xy: 111, 248
-  size: 92, 92
+  xy: 119, 256
+  size: 76, 76
   split: 5, 5, 5, 4
-  orig: 92, 92
+  orig: 76, 76
   offset: 0, 0
   index: -1
 n2star-down
   rotate: false
-  xy: 207, 248
-  size: 92, 92
+  xy: 215, 256
+  size: 76, 76
   split: 5, 5, 5, 4
-  orig: 92, 92
+  orig: 76, 76
   offset: 0, 0
   index: -1
 n3star-down
   rotate: false
-  xy: 302, 248
-  size: 92, 92
+  xy: 310, 256
+  size: 76, 76
   split: 5, 5, 5, 4
-  orig: 92, 92
+  orig: 76, 76
   offset: 0, 0
   index: -1
