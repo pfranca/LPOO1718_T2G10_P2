@@ -27,4 +27,35 @@ You can download the full source code available in this rep and open it with any
 #### game/app
 You can copy the single file /APK/TiltMe.apk to a folder in your android device and intall the game on said device, after that you can use it as any other normal app.
 
-###
+### d2.
+
+### d3.  - User manual (with screenshots explaining how to play/use the game/app).
+The main objective of the game is to guide a ball through a maze of obstacle (wrong holes and walls) using the phone accelerometer (tilting the device) to reach the final/winning hole!
+
+Intro image:
+![intro iamge](usermanual/intro.png)
+
+Main menu:</br>
+In the main menu the user can either chose to play the game, go to the options menu or exit the app.
+![main menu](usermanual/main.png)
+
+Options menu:</br>
+In the options menu the user can enable/disable the app music and/or vibration (all menus and gameplay have music, and the device vibrates when the ball hits a wall) both are active by default. The user can also 'reset'/delete is progress (unlocked levels and score). 'back' will take you the user back to the main menu.
+![Options menu](usermanual/options.png)
+
+Levels menu:</br>
+From Main menu if the user hits 'Play' he will go to this screen. The buttons marked with '?' are levels the user has not yet unlocked. To unlock a level the user must pass a previous level. If the user hits a button with a level number he will go to that level and be able to play it. 'Main Menu' button will take you the user back to the main menu.
+![Level menu](usermanual/levels.png)
+![Level menu](usermanual/levels2.png)
+
+Play Screen:</br>
+This is the exemple of a level, the user must guide a ball through a maze of obstacle (wrong holes and walls) using the phone accelerometer (tilting the device) to reach the final/winning hole!
+![play screen](usermanual/level.png)
+
+Win Screen:</br>
+If the user reach the final/winning(blue) hole he will see this screen and if he touches it anywhere he will go to the Levels menu. The number of stars are anmated(rotating) and represent the score the from 1 to 3 the user got in that level. The score is based only on the amount of time the user took to finish the level.
+![win screen](usermanual/win.png)
+
+Lose Screen:</br>
+If the user falls in a wrong(black) hole he will see this screen and if he touches it anywhere he will go to the Levels menu
+![Lose screen](usermanual/lose.png)
