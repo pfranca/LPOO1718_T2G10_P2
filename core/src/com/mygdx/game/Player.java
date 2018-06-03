@@ -112,7 +112,7 @@ public class Player implements Json.Serializable{
         else if(timepassed < (long) 18000)
             setStarLevel(level2,2);
         else
-            setStarLevel(level2,2);
+            setStarLevel(level2,1);
     }
 
     /**

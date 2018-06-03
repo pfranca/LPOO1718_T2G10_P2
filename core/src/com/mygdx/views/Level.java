@@ -106,7 +106,7 @@ public class Level extends AbstractScreen  {
                 stringbuilder.append(player.getStarLevel(i));
                 stringbuilder.append("star");
                 String buttonS = stringbuilder.toString();
-                button = new TextButton(leve, skin); //buttonS style, 3rd argument
+                button = new TextButton(leve, skin, buttonS); //buttonS style, 3rd argument
                 button.addListener(new ClickListener()
                 {
                     @Override

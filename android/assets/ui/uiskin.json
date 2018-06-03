@@ -21,7 +21,10 @@ com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
 com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
 	default: { down: default-round-down, up: default-round, font: default-font, fontColor: white },
 	toggle: { down: default-round-down, up: default-round, checked: default-round-down, font: default-font, fontColor: white, downFontColor: red },
-	n0star: {down: default-round-down, up: default-round-large, font: default-font, fontColor: green}
+	n0star: {down: n0star-down, up: n0star-default, font: default-font, fontColor: white},
+	n1star: {down: n1star-down, up: n1star-default, font: default-font, fontColor: white},
+	n2star: {down: n2star-down, up: n2star-default, font: default-font, fontColor: white},
+	n3star: {down: n3star-down, up: n3star-default, font: default-font, fontColor: white}
 },
 com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
 	default: { vScroll: default-scroll, hScrollKnob: default-round-large, background: default-rect, hScroll: default-scroll, vScrollKnob: default-round-large }
