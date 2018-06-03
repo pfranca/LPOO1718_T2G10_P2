@@ -27,7 +27,18 @@ You can download the full source code available in this rep and open it with any
 #### game/app
 You can copy the single file /APK/TiltMe.apk to a folder in your android device and intall the game on said device, after that you can use it as any other normal app.
 
-### d2.
+### d2. - Development documentation
+
+package diagram 
+![package diagram](usermanual/Diagram2.png) <br />
+
+class diagram 
+![class diagram](usermanual/class_dia.png) <br />
+
+state machine diagram 
+![state diagram](usermanual/state_dia.png) <br />
+
+
 
 ### d3.  - User manual (with screenshots explaining how to play/use the game/app).
 The main objective of the game is to guide a ball through a maze of obstacle (wrong holes and walls) using the phone accelerometer (tilting the device) to reach the final/winning hole!
