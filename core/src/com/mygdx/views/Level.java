@@ -72,7 +72,7 @@ public class Level extends AbstractScreen  {
         player.setPlayerFromString(json.fromJson(String.class, Gdx.files.local("player.json")));
 
         if(game.getSound())
-        {musica = Gdx.audio.newMusic(Gdx.files.internal("sound/m1.mp3"));
+        {musica = Gdx.audio.newMusic(Gdx.files.internal("sound/menus.mp3"));
             musica.play();
 
             musica.setOnCompletionListener(new Music.OnCompletionListener() {

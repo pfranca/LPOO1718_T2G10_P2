@@ -127,7 +127,7 @@ public class Play extends AbstractScreen{
 
         if(game.getSound())
         {
-            musica = Gdx.audio.newMusic(Gdx.files.internal("sound/m1.mp3"));
+            musica = Gdx.audio.newMusic(Gdx.files.internal("sound/play.mp3"));
             musica.play();
             musica.setOnCompletionListener(new Music.OnCompletionListener() {
 

@@ -72,8 +72,8 @@ public class IntroMenu extends AbstractScreen{
         splash = new Sprite(stxt);
         splash.setSize(Gdx.graphics.getWidth(), Gdx.graphics.getHeight() );
         game.manager.load("ui/uiskin.json", Skin.class);
-        game.manager.load("sound/m1.mp3", Music.class);
-        game.manager.load("sound/m2.mp3", Music.class);
+        game.manager.load("sound/menus.mp3", Music.class);
+        game.manager.load("sound/play.mp3", Music.class);
 
 
 
