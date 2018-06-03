@@ -40,7 +40,7 @@ public class MainMenu extends AbstractScreen{
     /**
      * Instantiates a new Screen
      *
-     * @param game the game
+     * @param game
      *
      */
     public MainMenu(TiltMazeGame game)
