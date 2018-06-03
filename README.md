@@ -1,4 +1,14 @@
-# LPOO1718_T2G10_P2
+# Final Project for OOP Lab class @FEUP 
+## LPOO1718_T2G10
+
+### Team Members <br />
+**Patrícia Janeiro Leite da Fonseca** <br />
+201605946 <br />
+up201605946@fe.up.pt <br />
+**Pedro Manuel Monteiro França Santos** <br />
+201200764 <br />
+ei12056@fe.up.pt <br />
+
 
 ## a. Full project source-code, including unit tests.
 The project source code is all available in the root of this git rep.
