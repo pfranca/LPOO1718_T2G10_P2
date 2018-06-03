@@ -43,7 +43,11 @@ public class Wall extends Element
     public void makeBody()
     {
         Texture text;
-        text = new Texture("img/wall.jpg");
+        if(bounds.getHeight()<bounds.getWidth()) {
+            text = new Texture("img/wall.jpg");
+        }else{
+            text = new Texture("img/wall2.jpg");
+        }
 
         Sprite wallSprite;
         wallSprite = new Sprite(text);
